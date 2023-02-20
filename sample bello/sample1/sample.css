@@ -1,0 +1,23 @@
+body{
+    background-image: url('future.png');
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    background-size:cover
+}
+
+h1{
+    color:white;
+    background-color:black
+}
+button{
+    text-align: right;
+}
+img.break{
+    float:right;
+    border-radius:100%;
+    width:200px;
+    padding-right:px
+}
+img{
+    width: 600px;
+}
