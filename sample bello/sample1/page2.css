@@ -1,0 +1,62 @@
+body{
+    background-image: url('future.png');
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    background-size:cover
+}
+h1{
+color:white;
+background-color:black;
+padding-left:5px;
+padding-right:5px;
+display:inline-block;
+border-radius:60px
+}
+p{
+    text-align: justify;
+    margin: 0 auto;
+    width: 30em;
+    line-height: 50px;
+
+}
+button {
+    display: inline-block;
+    border-radius: 4px;
+    background-color: #1c86b8;
+    border: none;
+    color: #FFFFFF;
+    text-align: left;
+    font-size: 5 px;
+    padding: 5px;
+    width: 100px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+  }
+button span{
+    cursor: pointer;
+    display:inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+button span:after {
+    content: '\00bb';
+    position: relative;
+    opacity: 0;
+    top: 0;
+    right: 0px;
+    transition: 0.5s;
+  }
+button:hover span {
+    padding-left: 5px;
+  }
+button:hover span:after {
+    opacity: 1;
+    right: 1;
+    left: 0;
+  }
+div{
+    vertical-align: middle ;
+    border:solid;
+    text-align: center;
+}
